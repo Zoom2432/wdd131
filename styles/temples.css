@@ -17,11 +17,15 @@ header {
   padding: 0.5rem 1rem;
 }
 
-header.menu-open h2 {
+h1 {
+    font-size: 1.7rem;
+}
+
+header.menu-open h1 {
   display: none;
 }
 
-h1 { 
+h2 { 
     font-size: 1.5rem; 
     margin-bottom: 0.75rem;
 }
