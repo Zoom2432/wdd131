@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="author" content="Valery Statov"/>
+  <title>Moldova</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/place_style.css"/>
+  <script defer src="scripts/place_script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <h1 class="site-title">Moldova</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/moldova.webp" media="(min-width: 768px)"/>
+        <img src="images/moldova.webp" alt="Landscape of Moldova" class="hero-img"/>
+      </picture>
+
+      <div class="data overlay">
+        <h2>Data</h2>
+        <ul class="data-list">
+          <li><span class="label">Area:</span> <span class="value">33,846 km²</span></li>
+          <li><span class="label">Population:</span> <span class="value">2,601,000</span></li>
+          <li><span class="label">Capital:</span> <span class="value">Chișinău</span></li>
+          <li><span class="label">Languages:</span> <span class="value">Romanian</span></li>
+          <li><span class="label">Currency:</span> <span class="value">Moldovan Leu</span></li>
+          <li><span class="label">Time Zone:</span> <span class="value">UTC+2</span></li>
+          <li><span class="label">Calling Code:</span> <span class="value">+373</span></li>
+          <li><span class="label">Internet TLD:</span> <span class="value">".md"</span></li>
+        </ul>
+      </div>
+
+      <div class="weather overlay">
+        <h2>Weather</h2>
+        <img src="images/cloud-sun.svg" alt="Weather icon" class="weather-icon-mobile"/>
+        <ul class="weather-list">
+          <li><span class="label">Temperature:</span> <span id="temp" class="value">10</span>°C</li>
+          <li><span class="label">Conditions:</span> <span class="value">Partly Cloudy</span></li>
+          <li><span class="label">Wind:</span> <span id="wind-speed" class="value">5</span> km/h</li>
+          <li><span class="label">Wind Chill:</span> <span id="windchill" class="value">N/A</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>©<span id="current-year"></span> Valery Statov · Moldova</p>
+    <p>Last Modification: <span id="last-modified"></span></p>
+  </footer>
+</body>
+</html>
